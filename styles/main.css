@@ -1,3 +1,19 @@
+/* NOTE: breakpoints */
+/* NOTE: colors */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
 
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1; }
 
 /*# sourceMappingURL=main.css.map */
