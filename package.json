@@ -1,8 +1,12 @@
 {
   "name": "@bobstyle23/common-styles",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Styles for side projects",
-  "main": "./styles/main.css",
+  "main": "./styles/main.scss",
+  "style": "./styles/main.scss",
+  "files": [
+    "./styles/"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
