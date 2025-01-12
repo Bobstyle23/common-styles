@@ -2,7 +2,7 @@
   "name": "@bobstyle23/common-styles",
   "version": "1.0.0",
   "description": "Styles for side projects",
-  "main": "main.scss",
+  "main": "./styles/main.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
