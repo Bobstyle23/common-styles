@@ -16,6 +16,8 @@ body {
   font-weight: 400;
   line-height: 1;
   background-image: $gradient;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 a:link,
