@@ -1,6 +1,6 @@
 {
   "name": "@bobstyle23/common-styles",
-  "version": "1.0.11",
+  "version": "1.0.7",
   "description": "Styles for side projects",
   "main": "./main.scss",
   "files": [
@@ -27,8 +27,7 @@
     "url": "https://github.com/Bobstyle23/common-styles/issues"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "homepage": "https://github.com/Bobstyle23/common-styles#readme"
 }
