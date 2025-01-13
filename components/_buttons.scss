@@ -1,0 +1,54 @@
+.btn {
+  @extend %button-style;
+
+  &__primary {
+    background-color: map-get($map: $background-colors, $key: brand-primary);
+    color: map-get($map: $text-colors, $key: primary-invert);
+
+    &:hover,
+    &:focus {
+      background-color: map-get(
+        $map: $background-colors,
+        $key: brand-primary-emphasize
+      );
+    }
+
+    &:focus {
+      box-shadow: $box-shadow-button--focus;
+    }
+
+    &--disabled {
+      background-color: map-get($map: $background-colors, $key: disabled);
+      color: map-get($map: $text-colors, $key: disabled);
+      box-shadow: none;
+    }
+  }
+
+  &__secondary {
+    background-color: map-get($map: $background-colors, $key: primary);
+    color: map-get($map: $text-colors, $key: primary);
+    box-shadow: inset 0 0 0 0.5px solid
+      map-get($map: $line-colors, $key: primary);
+
+    &:hover,
+    &:focus {
+      color: map-get($map: $text-colors, $key: primary-hover);
+      background-color: map-get($map: $background-colors, $key: primary-hover);
+    }
+
+    &:hover {
+      box-shadow: inset 0 0 0 1px solid
+        map-get($map: $line-colors, $key: primary);
+    }
+
+    &:focus {
+      box-shadow: $box-shadow-button--focus;
+    }
+
+    &--disabled {
+      background-color: map-get($map: $background-colors, $key: disabled);
+      color: map-get($map: $text-colors, $key: disabled);
+      box-shadow: none;
+    }
+  }
+}
