@@ -1,6 +1,6 @@
 {
   "name": "@bobstyle23/common-styles",
-  "version": "1.0.12",
+  "version": "1.0.15",
   "description": "Styles for side projects",
   "main": "./main.scss",
   "files": [
